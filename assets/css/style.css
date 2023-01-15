@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0c0ce94d;
+    background:#276a304d;
 }
 
 .container {
@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fde3a7d7;
+    background-color:#bde3c5d7;
     padding: 1rem;
 }
 
@@ -58,5 +58,18 @@ body {
 
 .login-button button {
     border: none;
-    background-color: #6c63ff;
+    background-color: #254c2f;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #b6eeb5;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
 }
